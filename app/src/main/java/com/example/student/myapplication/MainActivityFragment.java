@@ -24,14 +24,10 @@ Button but;
 
         rootView = inflater.inflate(R.layout.fragment_main, container,
                 false);
-        TextView tv = (TextView) rootView.findViewById(R.id.textView);
-        tv.setTextColor(Color.rgb(255, 0, 0));
-        tv.setText("test");
-        but = (Button) rootView.findViewById(R.id.button);
-        but.setText("Test");
 
 
-        // Find the root view
+
+         
 
 
         // Set the color
@@ -39,8 +35,6 @@ Button but;
         return rootView;
     }
 
-    public void clickMethod() {
-        rootView.setBackgroundColor(Color.rgb(255,0,0));
-    }
+
 
 }
