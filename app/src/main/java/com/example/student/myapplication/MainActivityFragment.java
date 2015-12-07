@@ -31,7 +31,7 @@ Button but;
 
 
         // Set the color
-       rootView.setBackgroundColor(Color.BLACK);
+
         return rootView;
     }
 
