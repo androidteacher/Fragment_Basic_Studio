@@ -28,7 +28,7 @@ Button but;
 
 
          
-
+rootView.setBackgroundColor(Color.BLACK);
 
         // Set the color
 
